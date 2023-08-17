@@ -30,9 +30,9 @@ export default function Recipe() {
   const [recipes, setRecipes] = useState([]);
   const className = useStyles();
   const { id } = useParams();
-  console.log(id);
+  
   const Recipes = recipes.find((item) => item.Id == id);
-  console.log(Recipes);
+  
 
   useEffect(() => {
     fetch("https://64c3961867cfdca3b65fef6d.mockapi.io/recipes")

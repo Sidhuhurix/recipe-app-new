@@ -5,7 +5,7 @@ import Navbar from "./assets/Navbar";
 import RecipeList from "./pages/RecipeList";
 import Recipe from "./pages/Recipe";
 import Welcome from "./pages/Welcome";
-// import AddRecipe from "./pages/AddRecipe";
+import AddRecipe from "./pages/AddRecipe";
 import "./App.css";
 
 // import { create } from "json-server";
@@ -36,7 +36,7 @@ function App() {
           <Route path="/recipe" element={<RecipeList />} />
           <Route path="/recipe/:id" element={<Recipe />} />
           <Route path="/" element={<Welcome />} />
-          {/* <Route path="/recipe/Add-Recipe" element={<AddRecipe />} /> */}
+          <Route path="/recipe/AddRecipe" element={<AddRecipe />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

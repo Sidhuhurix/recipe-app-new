@@ -36,9 +36,9 @@ export default function Navbar() {
           <Link to="/recipe" className={className.navLink}>
             Recipes
           </Link>
-          {/* <Link to="/recipe/Add-Recipe" className={className.navLink}>
+          <Link to="/recipe/AddRecipe" className={className.navLink}>
             Add Recipe
-          </Link> */}
+          </Link>
         </Typography>
       </Toolbar>
     </AppBar>
