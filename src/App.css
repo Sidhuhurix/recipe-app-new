@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  background-color: bisque;
+}
+
+.welcome {
+  text-align: center;
+}
+
+/* appBar: {
+  backgroundColor: "#fff",
+    color: "#333",
+    boxShadow: "none",
+} */
